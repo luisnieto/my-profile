@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Hobbies from '../components/Home/Hobbies'
 import Resume from '../components/Home/Resume'
 import Techonologies from '../components/Home/Technologies'
 import Volunteering from '../components/Home/Volunteering'
@@ -29,6 +30,10 @@ export default function Home() {
 
       <section className="container p-3">
         <Volunteering></Volunteering>
+      </section>
+
+      <section className="container p-3">
+        <Hobbies></Hobbies>
       </section>
     </div>
   )
